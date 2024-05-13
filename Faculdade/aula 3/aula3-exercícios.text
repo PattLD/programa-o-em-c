@@ -1,0 +1,29 @@
+1. Ler um valor e escrever se é positivo, negativo ou zero.
+
+2. Ler um número inteiro e verificar se ele é par ou ímpar.
+
+3. Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+4. Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+5. Ler 3 valores (considere que não serão informados valores iguais) e escrevêlos em ordem crescente.
+
+6. Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever 
+    se formam ou não um triângulo. OBS: para formar um triângulo, o valor de cada lado deve 
+    ser menor que a soma dos outros 2 lados.
+
+7. Leia 3 notas do aluno calcule a média e informe se o aluno foi APROVADO
+    ou REPROVADO, considerando que a méida é 6,0.
+
+8. Ler o número de gols marcados na partida (para cada time). Escrever o nome
+    do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.
+
+9. Faça um algoritmo para ler o valor do saque realizado pelo cliente de um banco
+    e escrever quantas notas de cada valor serão necessárias para atender ao saque
+    com a menor quantidade de notas possível. Serão utilizadas notas de 100, 50,
+    20, 10, 5, 2 e 1 reais.
+
+10. Escreva um algoritmo que leia as idades de 2 homens e de 2 mulheres (considere 
+    que as idades dos homens serão sempre diferentes entre si, bem como as das mulheres). 
+    Calcule e escreva a soma das idades do homem mais velho com a mulher mais nova, e o 
+    produto das idades do homem mais novo com a mulher mais velha.
