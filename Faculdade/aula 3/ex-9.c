@@ -51,7 +51,7 @@ int main(){
 
     if(saque/1 >= 1){
         n1 = saque/1;
-        printf("%d notas de 1\n", n1);
+        printf("%d moedas de 1\n", n1);
         saque = saque%1;
     }
 
