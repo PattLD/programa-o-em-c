@@ -1,3 +1,4 @@
+// Ler 3 valores (considere que não serão informados valores iguais) e escrevêlos em ordem crescente.
 #include <stdio.h>
 
 int main(){
