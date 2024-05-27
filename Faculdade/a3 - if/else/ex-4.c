@@ -2,11 +2,8 @@
 #include <stdio.h>
 
 int main(){
-    int num1 = 0;
-    int num2 = 0;
-    int num3 = 0;
-    int maior = 0;
-    int medio = 0;
+    int num1, num2, num3;
+    int maior, medio;
 
     printf("Escreva um número inteiro: ");
     scanf("%d", &num1);
@@ -30,7 +27,7 @@ int main(){
     } else if(num3 > num1 || num3 > num2){
         medio = num3;
 
-        if(2 > 1){
+        if(num2 > num1){
             maior = num2;
         }
 
@@ -38,6 +35,25 @@ int main(){
         maior = num2;
         medio = num1;
     }
+
+    // outra forma:
+    //
+    // int primeiroMaior, segundoMaior;
+    // if(num1 > num2){
+    //     primeiroMaior = num1;
+    //     if(num2 > num3){
+    //         segundoMaior = num2;
+    //     } else{
+    //         segundoMaior = num3;
+    //     }
+    // } else{
+    //     primeiroMaior = num2;
+    //     if(num3 > num1){
+    //         segundoMaior = num3;
+    //     } else{
+    //         segundoMaior = num1;
+    //     }
+    // } 
 
     printf("\nOs dois maiores números são: %d e %d\n", maior, medio);
     printf("A soma é igual à: %d\n", maior + medio);

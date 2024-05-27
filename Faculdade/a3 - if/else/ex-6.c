@@ -12,7 +12,9 @@ int main(){
     printf("Escreva o valor de outro lado de triângulo: \n");
     scanf("%d", &lado3);
 
-    if(lado1 < lado2+lado3 && lado2 < lado1+lado3 && lado3 < lado1+lado2){
+    if((lado1 < lado2+lado3) &&
+       (lado2 < lado1+lado3) && 
+       (lado3 < lado1+lado2)){
         printf("Esse é um triângulo válido.\n");
     } else{
         printf("Esse triângulo NÃO É válido!\n");
