@@ -2,14 +2,15 @@
 #include <stdlib.h>
 
 int main(){
-    system("cls");
+    // cls -> windows | clear -> linux
+    system("clear");
 
-    float n1, n2;
+    int n1, n2;
 
-    printf("Digite um numero:\n");
-    scanf("%f", &n1);
-    printf("Digite outro numero:\n");
-    scanf("%f", &n2);
+    printf("Digite um numero inteiro:\n");
+    scanf("%d", &n1);
+    printf("Digite outro numero inteiro:\n");
+    scanf("%d", &n2);
 
     int num;
     printf("Que operacao gostaria de fazer com esses numeros?\n");
@@ -19,24 +20,24 @@ int main(){
     printf("Para divisao (%%): digite 4.\n");
     scanf("%d", &num);
 
-    float soma = n1 + n2;
-    float subtracao = n1 - n2;
-    float multiplicacao = n1 * n2;
-    float divisao = n1 / n2;
+    int soma = n1 + n2;
+    int subtracao = n1 - n2;
+    int multiplicacao = n1 * n2;
+    float divisao = (float)n1 / (float)n2;
     //variavel dentro do switch nao deu certo
 
     switch (num){
         case 1:
-            printf("%.1f + %.1f = %.1f.\n", n1, n2, soma);
+            printf("%d + %d = %d\n", n1, n2, soma);
             break;
         case 2:
-            printf("%.1f - %.1f = %.1f.\n", n1, n2, subtracao);
+            printf("%d - %d = %d\n", n1, n2, subtracao);
             break;
         case 3:
-            printf("%.1f x %.1f = %.1f.\n", n1, n2, multiplicacao);
+            printf("%d x %d = %d\n", n1, n2, multiplicacao);
             break;
         case 4:
-            printf("%.1f %% %.1f = %.1f.\n", n1, n2, divisao);
+            printf("%d %% %d = %.1f\n", n1, n2, divisao);
             break;
         default:
             printf("Valor invalido.\n");
